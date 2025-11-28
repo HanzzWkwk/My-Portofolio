@@ -447,3 +447,12 @@ footer {
   color: white;
   font-style: normal;
 }
+
+@media screen and (max-width: 558px) {
+  main {
+    flex-direction: column;
+  }
+  nav {
+    flex-direction: column;
+  }
+}
